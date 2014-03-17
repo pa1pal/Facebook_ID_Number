@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="a152fd10d302b0a"
+        ads:adUnitId="***************"  // paste your unit ID here
         ads:loadAdOnCreate="true"
          />
 

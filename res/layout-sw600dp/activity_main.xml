@@ -35,7 +35,7 @@
         android:id="@+id/adview1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        ads:adUnitId="a152fd10d302b0a"
+        ads:adUnitId="***************"  // paste your unit ID here
         ads:adSize="BANNER"
         ads:loadAdOnCreate="true"  />
     

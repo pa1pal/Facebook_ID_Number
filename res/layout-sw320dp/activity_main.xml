@@ -38,7 +38,7 @@
         android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentTop="true"
         ads:adSize="BANNER"
-        ads:adUnitId="a152fd10d302b0a"
+        ads:adUnitId="***************"  // paste your unit ID here
         ads:loadAdOnCreate="true" >
     </com.google.ads.AdView>
 

@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.tunnelight.facebookidnumber.Flash"
+            android:name="com.tunnelight.facebookidnumber.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,15 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.tunnelight.facebookidnumber.MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="com.tunnelight.facebookidnumber.MainActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        
          <activity
             android:name="com.tunnelight.facebookidnumber.Idnum"
             android:label="@string/app_name" >
@@ -60,7 +52,7 @@
         <activity android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity" 
                android:theme="@android:style/Theme.Translucent" />
         <meta-data android:name="ADBUDDIZ_PUBLISHER_KEY" 
-             android:value="adf49535-d4cc-4b86-bfba-7ef71de52abe" 
+             android:value="*******-****-****-****-***********" 
              />
         
     </application>

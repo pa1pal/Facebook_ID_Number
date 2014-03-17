@@ -9,7 +9,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dont enter the complete url of your profile"
+        android:text="Dont enter the complete url of your profile"  // you can use @string resource also
         android:textColor="#800000"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -39,13 +39,7 @@
         android:layout_height="wrap_content"
         android:text="Please click on the ads so that ,I can donate money for a noble cause"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-     <com.google.ads.AdView
-        android:id="@+id/adviewins1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        ads:adUnitId="a152fd10d302b0a"
-        ads:adSize="BANNER"
-        ads:loadAdOnCreate="true"  />
+     
       
     
     
