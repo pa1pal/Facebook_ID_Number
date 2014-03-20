@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
@@ -51,4 +52,59 @@
         android:textColor="#ffffff"
         android:textSize="65sp" />
 
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poster"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/instruct"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:text="Instructions"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/getid"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/instruct"
+        android:layout_below="@+id/instruct"
+        android:text="Let&apos;s Go"
+        android:textColor="#15317E"
+        android:textSize="40sp" />
+    
+    <com.google.ads.AdView
+        android:id="@+id/adview1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="***************"  // paste your unit ID here
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true"  />
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/instruct"
+        android:gravity="center"
+        android:text="CHECK ID NUMBER OF ANYONE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="65sp" />
+
+>>>>>>> 6bb8d70e3009caddce45564c292124008e81bc9c
 </RelativeLayout>
